@@ -2,9 +2,7 @@ version: '3.4'
 
 services:
   pythonproject:
-    #image: 068182984146.dkr.ecr.eu-central-1.amazonaws.com/brian-test/pythondemo:latest
-    # Insert your image full path below
-    image: 
+    image: <insert Image URL here> 
     build:
       context: .
       dockerfile: Dockerfile
